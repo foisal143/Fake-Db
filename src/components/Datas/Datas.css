@@ -1,0 +1,21 @@
+.dataContainer {
+  display: grid;
+  grid-template-columns: 3.5fr 1.5fr;
+  padding: 5px 40px;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.cartSummary {
+  background-color: rgb(255, 165, 0, 0.5);
+  color: black;
+  height: fit-content;
+  padding: 10px;
+  margin-left: 40px;
+  position: sticky;
+  top: 0;
+}

@@ -1,0 +1,23 @@
+.card {
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid gainsboro;
+}
+.card img {
+  width: 96%;
+  height: auto;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.cardDetails {
+  margin: 0px 10px;
+}
+.cardDetails h4,
+p {
+  margin: 2px 0px;
+}
+
+.cardDetails button {
+  margin: 10px 0px;
+}
